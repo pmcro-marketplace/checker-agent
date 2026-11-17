@@ -1,2 +1,4 @@
-# checker-agent
-PMCR-O checker-agent marketplace agent repository
+# Checker Agent
+
+Canonical plugin: `checker`.
+Human handle: `@checker-agent`.
