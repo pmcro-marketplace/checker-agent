@@ -1,6 +1,6 @@
 ---
 name: check
-description: Validate an artifact or result against explicit acceptance criteria using actual evidence.
+description: Validate an artifact or result against explicit acceptance criteria using actual evidence. USE FOR independently checking Make output and issuing an evidence-backed cycle verdict. DO NOT USE FOR planning, artifact repair, reflection, or global orchestration; use the corresponding PMCR-O role.
 ---
 # check
 
@@ -33,4 +33,4 @@ A PASS requires actual evidence. An emitted invocation, route, plan, or declared
 Emission is not invocation. The installed Hook Agent may surround this role but does not replace its business function.
 
 ## Resources
-See `references/contract.md` and `assets/request.json`.
+See `references/contract.md`, `assets/request.json`, and `scripts/validate.py`.
